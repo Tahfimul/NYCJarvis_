@@ -1,0 +1,6 @@
+# ninja log v5
+12	517	7302490479066122	libasio.a	60014beefabf5a41
+28	14452	7303401498497558	CMakeFiles/NYCJarvisClient.dir/NYCJarvis_Client.cpp.obj	d954c88ec31d6b2b
+14453	15084	7303401504753923	NYCJarvisClient.exe	9e3d0ca64966f22b
+25	13056	7303407914965837	CMakeFiles/NYCJarvisClient.dir/NYCJarvis_Client.cpp.obj	d954c88ec31d6b2b
+13057	13661	7303407920978591	NYCJarvisClient.exe	9e3d0ca64966f22b

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <object class="GtkHeaderBar" id="custom_header">
+    <child>
+      <object class="GtkTextView" id="header_text_view">
+        <property name="focusable">1</property>
+        <property name="left-margin">24</property>
+        <property name="right-margin">24</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkButton" id="header_btn_1">
+        <property name="label" translatable="1">button</property>
+        <property name="focusable">1</property>
+        <property name="receives-default">1</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkButton" id="header_btn_2">
+        <property name="label" translatable="1">button</property>
+        <property name="focusable">1</property>
+        <property name="receives-default">1</property>
+      </object>
+    </child>
+  </object>
+</interface>

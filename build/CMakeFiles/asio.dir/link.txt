@@ -1,0 +1,2 @@
+C:\msys2\mingw64\bin\ar.exe qc libasio.a 
+C:\msys2\mingw64\bin\ranlib.exe libasio.a

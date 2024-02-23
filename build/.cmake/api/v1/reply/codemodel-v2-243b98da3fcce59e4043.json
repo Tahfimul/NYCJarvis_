@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NYCJarvisClient",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "NYCJarvisClient::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NYCJarvisClient-Debug-99c12583f105b927ce30.json",
+					"name" : "NYCJarvisClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "asio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-asio-Debug-fc6155db0360f8182973.json",
+					"name" : "asio",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/tahfi/VSCodeProjects/NYCJarvis/build",
+		"source" : "C:/Users/tahfi/VSCodeProjects/NYCJarvis/NYCJarvis_Client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

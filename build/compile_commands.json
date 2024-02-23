@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/tahfi/VSCodeProjects/NYCJarvis/build",
+  "command": "C:\\msys2\\mingw64\\bin\\g++.exe  @CMakeFiles/NYCJarvisClient.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\NYCJarvisClient.dir\\NYCJarvis_Client.cpp.obj -c C:\\Users\\tahfi\\VSCodeProjects\\NYCJarvis\\NYCJarvis_Client\\NYCJarvis_Client.cpp",
+  "file": "C:/Users/tahfi/VSCodeProjects/NYCJarvis/NYCJarvis_Client/NYCJarvis_Client.cpp",
+  "output": "CMakeFiles/NYCJarvisClient.dir/NYCJarvis_Client.cpp.obj"
+}
+]

@@ -1,0 +1,4 @@
+C:/Users/tahfi/VSCodeProjects/NYCJarvis/NYCJarvis_Client/build/CMakeFiles/asio.dir
+C:/Users/tahfi/VSCodeProjects/NYCJarvis/NYCJarvis_Client/build/CMakeFiles/NYCJarvisClient.dir
+C:/Users/tahfi/VSCodeProjects/NYCJarvis/NYCJarvis_Client/build/CMakeFiles/edit_cache.dir
+C:/Users/tahfi/VSCodeProjects/NYCJarvis/NYCJarvis_Client/build/CMakeFiles/rebuild_cache.dir

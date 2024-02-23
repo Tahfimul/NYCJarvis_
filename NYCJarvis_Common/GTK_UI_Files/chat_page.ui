@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <object class="GtkHeaderBar" id="header_bar">
+    <child>
+        <object class="GtkButton" id="toggle_pages_pane">
+        <property name="label" translatable="1">button</property>
+        <property name="focusable">1</property>
+        <property name="receives-default">1</property>
+        </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="main_window">
+    <property name="child">
+      <object class="GtkBox" id="main_box">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkPaned" id="pane">
+            <property name="vexpand">1</property>
+            <property name="focusable">1</property>
+            <property name="position">201</property>
+            <child>
+              <object class="GtkBox" id="pages_pane_box">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkButton" id="chat_page_btn">
+                    <property name="label" translatable="1">button</property>
+                    <property name="focusable">1</property>
+                    <property name="receives-default">1</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkButton" id="datasets_page_btn">
+                    <property name="label" translatable="1">button</property>
+                    <property name="focusable">1</property>
+                    <property name="receives-default">1</property>
+                  </object>
+                </child>
+                <child>
+                  <placeholder/>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox" id="chat_pane_box">
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkButton">
+                    <property name="vexpand">1</property>
+                    <property name="label" translatable="1">this is where the gtklist goes</property>
+                    <property name="focusable">1</property>
+                    <property name="receives-default">1</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkBox" id="chat_input_box">
+                    <property name="valign">center</property>
+                    <child>
+                      <object class="GtkScrolledWindow" id="chat_input_scroll_window">
+                        <property name="hexpand">1</property>
+                        <property name="focusable">1</property>
+                        <property name="child">
+                          <object class="GtkTextView" id="chat_input_text">
+                            <property name="focusable">1</property>
+                          </object>
+                        </property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="chat_input_btn">
+                        <property name="label" translatable="1">button</property>
+                        <property name="focusable">1</property>
+                        <property name="receives-default">1</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </property>
+  </object>
+</interface>
